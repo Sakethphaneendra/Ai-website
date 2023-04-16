@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@0,700;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@0,700;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@0,700;1,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.box123{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/02/88/80/38/360_F_288803822_0CJ8L3gr6w6nGnUeje6pCllCX7s986xz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.saketh , .loki{ 
+    width: 290px;
+    height: 350px;
+    background-color: white;
+    padding: 15px;
+   
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  
+}
+.name ,.name2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
+    font-family:inter;
+    font-weight: 700;
+}
+.name2{
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+    opacity: 160%;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+@media only screen and  (max-width: 800px)
+{
+    .box123{
+        display: grid;
+        height: fit-content;
+    }
+    .saketh{
+        margin-top: 40%;
+        margin-bottom: 40%;
+        width: 290px;
+        height: 350px;
+    } 
+    .loki{
+        margin-bottom: 30%;
+    }
+}
+.name2{
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+    opacity: 160%;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.pa{
+    font-family:inter;
+    margin: 15px 0px 5px 0px;
+    margin: 0px 5px 5px 0px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(2, 6, 45);
+}
+
+
+.loki .saketh{
+    width: 30%;
+    height: 55%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+
+    margin-left: 10px;
+   
+}
+
+
+.profile1 , .profile2{
+    width: 120px;
+    border-image-repeat: stretch;   
+    margin-top: -60px;
+    border-radius: 10px; 
+}
+
+
+.pa{
+    font-family:inter;
+    margin: 15px 0px 5px 0px;
+    margin: 0px 5px 5px 0px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(2, 6, 45);
+}
+
+
+.loki .saketh{
+    width: 30%;
+    height: 55%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+
+    margin-left: 10px;
+   
+}
+
+
+.profile1 , .profile2{
+    width: 120px;
+    border-image-repeat: stretch;   
+    margin-top: -60px;
+    border-radius: 10px; 
+}  
+
+ 
+.linkedin{
+    margin-left: 85px;
+}
+.linkedin:hover{
+    color: blue;
+}
+.instagram{
+    margin-left: 10px;
+}
+.instagram:hover{
+    color: red;
+}
+
+
+/* 
+
+*/
